@@ -44,10 +44,15 @@ Agar value pass karna nahi chahte...toh hum karenge constructor ko **Overload** 
 
 ### this keyword 
 Referes to the current object - Current Object ke Reference store karta hai
-### this() -> used to call other constructors of the same object.
+### this() -> used to call other constructors of the same object. Should always present at the beginning of Constructor body
+    
 
 **Q) Can we call constructor manually?**
 
 Ans. No. 
 
 **new** -> It creates object dynamically(at Runtime);
+
+## Object Deep Dive
+
+Size of **Ref.** Variables - **4bytes** or **8bytes** depends on JVM to JVM on a Machine. But generally **4bytes.**
