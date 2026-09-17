@@ -8,26 +8,30 @@ public class Constructors {
     }
 }
 
-class Student{
+class Student {
     String name; //information/data/characteristics ---> Instance variables
     int age;
     int rollNo;
     String college;
 
     //Type 2 Constructor Chaining
-    Student(){
+    Student() {
         this("unknown");
     }
-    Student(String name){
-        this(name,0);
+
+    Student(String name) {
+        this(name, 0);
     }
-    Student(String name, int age){
+
+    Student(String name, int age) {
         this(name, age, 0);
     }
-    Student(String name, int age,int rollNo){
-        this(name,age,rollNo,"unknown");
+
+    Student(String name, int age, int rollNo) {
+        this(name, age, rollNo, "unknown");
     }
-    Student(String name, int age,int rollNo,String college){
+
+    Student(String name, int age, int rollNo, String college) {
         this.name = name;
         this.age = age;
         this.rollNo = rollNo;

@@ -6,7 +6,7 @@ public class String_palindrome {
 //    So we can use two pointer iterative  approach to optimise that
 
     //NOTE: In every recursive call ..remember that a funtion is returning
-        // something.. so you can use that to return directly.. Solve most of the confusion.
+    // something.. so you can use that to return directly.. Solve most of the confusion.
 
     public static boolean palindromeCheck(String s) {
         if (s.isEmpty() || s.length() == 1) {

@@ -3,8 +3,9 @@ package core.tricks;
 public class CountDigitsInANo {
     public static void main(String[] args) {
         int digit = 1234;
-        int totalDigit = (int)Math.log10(digit) + 1;
+        int totalDigit = (int) Math.log10(digit) + 1;
         System.out.println(totalDigit);
+
     }
 }
 
