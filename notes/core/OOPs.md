@@ -106,3 +106,24 @@ Because JVM directly can call the main() using the className. NO need to create 
 //It is possible to create a varible static as well as final
 static final double PI = 3.14;
 ```
+
+### Encapsulation & Inheritance
+**Q) What is Encapsulation?**<br/>
+* Encapsulation is fundamental OOP concept that bundles variables (data) and methods (behaviour) into a single unit, typically a class.
+* We should **NOT** provide unrestricted acess of data.
+
+**Access Modifiers -** says who have acess to Variables, Method, Constructor, Class
+
+![Access Modifiers](../assets/access_modifiers.png)
+
+**Package -** Group similar classes/interfaces together
+
+NOTE - We Can't Decalare a Root level class as Private or Protected. 
+```java
+protected class Main{
+    //This is wrong because class doesn't belong to anyone.
+}
+private class Main{
+     //This is wrong because class doesn't belong to anyone.
+}
+```
